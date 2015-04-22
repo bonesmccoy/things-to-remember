@@ -1,8 +1,0 @@
-tricky question for developers
-
-$value = false or true;
-#$value : true;
-
-
-$value = false || true;
-#$value : false
