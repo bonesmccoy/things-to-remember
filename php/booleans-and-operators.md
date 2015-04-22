@@ -1,11 +1,14 @@
 #Operator Precedence
 
-# "||" has a greater precedence than "or"
+## "||" has a greater precedence than "or"
+
 $val = false || true; // $val : true [ $val = (false || true)]
 $val = false or true; // $val : false [ ($val = false ) || true]
 
 
-#"&&" has a greater precedence than "and"
+
+##"&&" has a greater precedence than "and"
+
 $val = true && false; // $val: false [ $val = (true && false) ]
 $val = true and false; // $val : true [ ($val = true ) and false ]
 
